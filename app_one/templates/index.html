@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'index.css' %}">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>All the Users</h1>
+        <table>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Age</th>
+            </tr>
+            {% for info in users %}
+            <tr>
+                <td>{{ info.id }}</td>
+                <td>{{ info.first_name }} {{ info.last_name }}</td>
+                <td>{{ info.email }}</td>
+                <td>{{ info.age }}</td>
+            </tr>
+            {% endfor %}
+            
+        </table>
+
+        <span class="line"></span>
+
+        <form action="/info" method="POST">
+            {% csrf_token %}
+            <div class="div1">
+                <p>First Name</p>
+                <input type="text" name="first_name">
+                <p>Email</p>
+                <input type="email" name="email">
+                
+            </div>
+            <div class="div2">
+                <p>Last Name</p>
+                <input type="text" name="last_name"><br>
+                <p>Age</p>
+                <input type="text" name="age">
+            </div><br>
+            <input class="button" type="submit" value="submit">
+        </form>
+    </div>
+</body>
+
+</html>

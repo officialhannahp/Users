@@ -1,0 +1,319 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2578
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 Menlo-Regular;\f1\fnil\fcharset0 Menlo-Bold;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red56\green185\blue199;\red170\green171\blue37;
+\red57\green192\blue38;}
+{\*\expandedcolortbl;;\csgray\c0;\cssrgb\c25544\c77008\c82022;\cssrgb\c72330\c71683\c18597;
+\cssrgb\c25704\c77963\c19556;}
+\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\fs22 \cf2 \CocoaLigature0 >>> from app_one.models import\
+  File "<console>", line 1\
+    from app_one.models import\
+                              ^\
+SyntaxError: invalid syntax\
+>>> from app_one.models import*\
+>>> from app_one.models import *\
+>>> User\
+Traceback (most recent call last):\
+  File "<console>", line 1, in <module>\
+NameError: name 'User' is not defined\
+>>> from app_one.models import *\
+>>> User\
+Traceback (most recent call last):\
+  File "<console>", line 1, in <module>\
+NameError: name 'User' is not defined\
+>>> from app_one.models import *\
+>>> User\
+Traceback (most recent call last):\
+  File "<console>", line 1, in <module>\
+NameError: name 'User' is not defined\
+>>> \
+now exiting InteractiveConsole...\
+(djangoPy3Env) Hannahs-Mac:Users hannah$ ls\
+Users		app_one		db.sqlite3	manage.py\
+(djangoPy3Env) Hannahs-Mac:Users hannah$ python manage.py she;;\
+-bash: syntax error near unexpected token `;;'\
+(djangoPy3Env) Hannahs-Mac:Users hannah$ python manage.py shell\
+Python 3.9.1 (default, Feb  3 2021, 07:38:02) \
+[Clang 12.0.0 (clang-1200.0.32.29)] on darwin\
+Type "help", "copyright", "credits" or "license" for more information.\
+(InteractiveConsole)\
+>>> from app_one.models import*\
+Traceback (most recent call last):\
+  File "<console>", line 1, in <module>\
+  File "/Users/hannah/Desktop/Dojo_Assignments/Python/django/django_orm/Users/app_one/models.py", line 3, in <module>\
+    class User(models.Model):\
+  File "/Users/hannah/Desktop/Dojo_Assignments/Python/my_environments/djangoPy3Env/lib/python3.9/site-packages/django/db/models/base.py", line 108, in __new__\
+    raise RuntimeError(\
+RuntimeError: Model class app_one.models.User doesn't declare an explicit app_label and isn't in an application in INSTALLED_APPS.\
+>>> from app_one.models import *\
+Traceback (most recent call last):\
+  File "<console>", line 1, in <module>\
+  File "/Users/hannah/Desktop/Dojo_Assignments/Python/django/django_orm/Users/app_one/models.py", line 3, in <module>\
+    class User(models.Model):\
+  File "/Users/hannah/Desktop/Dojo_Assignments/Python/my_environments/djangoPy3Env/lib/python3.9/site-packages/django/db/models/base.py", line 108, in __new__\
+    raise RuntimeError(\
+RuntimeError: Model class app_one.models.User doesn't declare an explicit app_label and isn't in an application in INSTALLED_APPS.\
+>>> from app_one.models import *\
+Traceback (most recent call last):\
+  File "<console>", line 1, in <module>\
+  File "/Users/hannah/Desktop/Dojo_Assignments/Python/django/django_orm/Users/app_one/models.py", line 3, in <module>\
+    class User(models.Model):\
+  File "/Users/hannah/Desktop/Dojo_Assignments/Python/my_environments/djangoPy3Env/lib/python3.9/site-packages/django/db/models/base.py", line 108, in __new__\
+    raise RuntimeError(\
+RuntimeError: Model class app_one.models.User doesn't declare an explicit app_label and isn't in an application in INSTALLED_APPS.\
+>>> \
+now exiting InteractiveConsole...\
+(djangoPy3Env) Hannahs-Mac:Users hannah$  python manage.py makemigrations\
+No changes detected\
+(djangoPy3Env) Hannahs-Mac:Users hannah$ python manage.py migrate\
+
+\f1\b \cf3 Operations to perform:
+\f0\b0 \cf2 \
+
+\f1\b   Apply all migrations: 
+\f0\b0 admin, auth, contenttypes, sessions\
+
+\f1\b \cf3 Running migrations:
+\f0\b0 \cf2 \
+  No migrations to apply.\
+(djangoPy3Env) Hannahs-Mac:Users hannah$ python manage.py shell\
+Python 3.9.1 (default, Feb  3 2021, 07:38:02) \
+[Clang 12.0.0 (clang-1200.0.32.29)] on darwin\
+Type "help", "copyright", "credits" or "license" for more information.\
+(InteractiveConsole)\
+>>> from app_one.models import *\
+Traceback (most recent call last):\
+  File "<console>", line 1, in <module>\
+  File "/Users/hannah/Desktop/Dojo_Assignments/Python/django/django_orm/Users/app_one/models.py", line 3, in <module>\
+    class User(models.Model):\
+  File "/Users/hannah/Desktop/Dojo_Assignments/Python/my_environments/djangoPy3Env/lib/python3.9/site-packages/django/db/models/base.py", line 108, in __new__\
+    raise RuntimeError(\
+RuntimeError: Model class app_one.models.User doesn't declare an explicit app_label and isn't in an application in INSTALLED_APPS.\
+>>> from app_one.models import *\
+Traceback (most recent call last):\
+  File "<console>", line 1, in <module>\
+  File "/Users/hannah/Desktop/Dojo_Assignments/Python/django/django_orm/Users/app_one/models.py", line 3, in <module>\
+    class User(models.Model):\
+  File "/Users/hannah/Desktop/Dojo_Assignments/Python/my_environments/djangoPy3Env/lib/python3.9/site-packages/django/db/models/base.py", line 108, in __new__\
+    raise RuntimeError(\
+RuntimeError: Model class app_one.models.User doesn't declare an explicit app_label and isn't in an application in INSTALLED_APPS.\
+>>> from app_one.models import *\
+Traceback (most recent call last):\
+  File "<console>", line 1, in <module>\
+  File "/Users/hannah/Desktop/Dojo_Assignments/Python/django/django_orm/Users/app_one/models.py", line 3, in <module>\
+    class User(models.Model):\
+  File "/Users/hannah/Desktop/Dojo_Assignments/Python/my_environments/djangoPy3Env/lib/python3.9/site-packages/django/db/models/base.py", line 108, in __new__\
+    raise RuntimeError(\
+RuntimeError: Model class app_one.models.User doesn't declare an explicit app_label and isn't in an application in INSTALLED_APPS.\
+>>> \
+now exiting InteractiveConsole...\
+(djangoPy3Env) Hannahs-Mac:Users hannah$ python manage.py shell\
+Python 3.9.1 (default, Feb  3 2021, 07:38:02) \
+[Clang 12.0.0 (clang-1200.0.32.29)] on darwin\
+Type "help", "copyright", "credits" or "license" for more information.\
+(InteractiveConsole)\
+>>> from app_one.models import *\
+>>> User\
+<class 'app_one.models.User'>\
+>>> User.objects.create(first_name="Hannah", last_name="Park", age=25, email="hannah@gmail.com")\
+Traceback (most recent call last):\
+  File "<console>", line 1, in <module>\
+  File "/Users/hannah/Desktop/Dojo_Assignments/Python/my_environments/djangoPy3Env/lib/python3.9/site-packages/django/db/models/manager.py", line 82, in manager_method\
+    return getattr(self.get_queryset(), name)(*args, **kwargs)\
+  File "/Users/hannah/Desktop/Dojo_Assignments/Python/my_environments/djangoPy3Env/lib/python3.9/site-packages/django/db/models/query.py", line 420, in create\
+    obj = self.model(**kwargs)\
+  File "/Users/hannah/Desktop/Dojo_Assignments/Python/my_environments/djangoPy3Env/lib/python3.9/site-packages/django/db/models/base.py", line 501, in __init__\
+    raise TypeError("%s() got an unexpected keyword argument '%s'" % (cls.__name__, kwarg))\
+TypeError: User() got an unexpected keyword argument 'email'\
+>>> User.objects.create(first_name="Hannah", last_name="Park", age=25, email_address="hannah@gmail.com")\
+Traceback (most recent call last):\
+  File "/Users/hannah/Desktop/Dojo_Assignments/Python/my_environments/djangoPy3Env/lib/python3.9/site-packages/django/db/backends/utils.py", line 84, in _execute\
+    return self.cursor.execute(sql, params)\
+  File "/Users/hannah/Desktop/Dojo_Assignments/Python/my_environments/djangoPy3Env/lib/python3.9/site-packages/django/db/backends/sqlite3/base.py", line 383, in execute\
+    return Database.Cursor.execute(self, query, params)\
+sqlite3.OperationalError: no such table: app_one_user\
+\
+The above exception was the direct cause of the following exception:\
+\
+Traceback (most recent call last):\
+  File "<console>", line 1, in <module>\
+  File "/Users/hannah/Desktop/Dojo_Assignments/Python/my_environments/djangoPy3Env/lib/python3.9/site-packages/django/db/models/manager.py", line 82, in manager_method\
+    return getattr(self.get_queryset(), name)(*args, **kwargs)\
+  File "/Users/hannah/Desktop/Dojo_Assignments/Python/my_environments/djangoPy3Env/lib/python3.9/site-packages/django/db/models/query.py", line 422, in create\
+    obj.save(force_insert=True, using=self.db)\
+  File "/Users/hannah/Desktop/Dojo_Assignments/Python/my_environments/djangoPy3Env/lib/python3.9/site-packages/django/db/models/base.py", line 740, in save\
+    self.save_base(using=using, force_insert=force_insert,\
+  File "/Users/hannah/Desktop/Dojo_Assignments/Python/my_environments/djangoPy3Env/lib/python3.9/site-packages/django/db/models/base.py", line 777, in save_base\
+    updated = self._save_table(\
+  File "/Users/hannah/Desktop/Dojo_Assignments/Python/my_environments/djangoPy3Env/lib/python3.9/site-packages/django/db/models/base.py", line 870, in _save_table\
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)\
+  File "/Users/hannah/Desktop/Dojo_Assignments/Python/my_environments/djangoPy3Env/lib/python3.9/site-packages/django/db/models/base.py", line 907, in _do_insert\
+    return manager._insert([self], fields=fields, return_id=update_pk,\
+  File "/Users/hannah/Desktop/Dojo_Assignments/Python/my_environments/djangoPy3Env/lib/python3.9/site-packages/django/db/models/manager.py", line 82, in manager_method\
+    return getattr(self.get_queryset(), name)(*args, **kwargs)\
+  File "/Users/hannah/Desktop/Dojo_Assignments/Python/my_environments/djangoPy3Env/lib/python3.9/site-packages/django/db/models/query.py", line 1186, in _insert\
+    return query.get_compiler(using=using).execute_sql(return_id)\
+  File "/Users/hannah/Desktop/Dojo_Assignments/Python/my_environments/djangoPy3Env/lib/python3.9/site-packages/django/db/models/sql/compiler.py", line 1335, in execute_sql\
+    cursor.execute(sql, params)\
+  File "/Users/hannah/Desktop/Dojo_Assignments/Python/my_environments/djangoPy3Env/lib/python3.9/site-packages/django/db/backends/utils.py", line 99, in execute\
+    return super().execute(sql, params)\
+  File "/Users/hannah/Desktop/Dojo_Assignments/Python/my_environments/djangoPy3Env/lib/python3.9/site-packages/django/db/backends/utils.py", line 67, in execute\
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)\
+  File "/Users/hannah/Desktop/Dojo_Assignments/Python/my_environments/djangoPy3Env/lib/python3.9/site-packages/django/db/backends/utils.py", line 76, in _execute_with_wrappers\
+    return executor(sql, params, many, context)\
+  File "/Users/hannah/Desktop/Dojo_Assignments/Python/my_environments/djangoPy3Env/lib/python3.9/site-packages/django/db/backends/utils.py", line 84, in _execute\
+    return self.cursor.execute(sql, params)\
+  File "/Users/hannah/Desktop/Dojo_Assignments/Python/my_environments/djangoPy3Env/lib/python3.9/site-packages/django/db/utils.py", line 89, in __exit__\
+    raise dj_exc_value.with_traceback(traceback) from exc_value\
+  File "/Users/hannah/Desktop/Dojo_Assignments/Python/my_environments/djangoPy3Env/lib/python3.9/site-packages/django/db/backends/utils.py", line 84, in _execute\
+    return self.cursor.execute(sql, params)\
+  File "/Users/hannah/Desktop/Dojo_Assignments/Python/my_environments/djangoPy3Env/lib/python3.9/site-packages/django/db/backends/sqlite3/base.py", line 383, in execute\
+    return Database.Cursor.execute(self, query, params)\
+django.db.utils.OperationalError: no such table: app_one_user\
+>>> \
+now exiting InteractiveConsole...\
+(djangoPy3Env) Hannahs-Mac:Users hannah$  python manage.py makemigrations\
+System check identified some issues:\
+\
+WARNINGS:\
+
+\f1\b \cf4 app_one.User.age: (fields.W122) 'max_length' is ignored when used with IntegerField.
+\f0\b0 \cf2 \
+
+\f1\b \cf4 	HINT: Remove 'max_length' from field
+\f0\b0 \cf2 \
+
+\f1\b \cf3 Migrations for 'app_one':
+\f0\b0 \cf2 \
+  
+\f1\b app_one/migrations/0001_initial.py
+\f0\b0 \
+    - Create model User\
+(djangoPy3Env) Hannahs-Mac:Users hannah$ python manage.py migrate\
+System check identified some issues:\
+\
+WARNINGS:\
+
+\f1\b \cf4 app_one.User.age: (fields.W122) 'max_length' is ignored when used with IntegerField.
+\f0\b0 \cf2 \
+
+\f1\b \cf4 	HINT: Remove 'max_length' from field
+\f0\b0 \cf2 \
+
+\f1\b \cf3 Operations to perform:
+\f0\b0 \cf2 \
+
+\f1\b   Apply all migrations: 
+\f0\b0 admin, app_one, auth, contenttypes, sessions\
+
+\f1\b \cf3 Running migrations:
+\f0\b0 \cf2 \
+  Applying app_one.0001_initial...
+\f1\b \cf5  OK
+\f0\b0 \cf2 \
+(djangoPy3Env) Hannahs-Mac:Users hannah$ python manage.py shell\
+Python 3.9.1 (default, Feb  3 2021, 07:38:02) \
+[Clang 12.0.0 (clang-1200.0.32.29)] on darwin\
+Type "help", "copyright", "credits" or "license" for more information.\
+(InteractiveConsole)\
+>>> from app_one.models import *\
+>>> User\
+<class 'app_one.models.User'>\
+>>> User.objects.create(first_name="Hannah", last_name="Park", email_address="hannah@gmail.com", age=25)\
+<User: User object (1)>\
+>>> user1=User.objects.get(id=1)\
+>>> user1.first_name\
+'Hannah'\
+>>> User.objects.create(first_name="Tia", last_name="Li", email_address="tia@gmail.com", age=25)\
+<User: User object (2)>\
+>>> User.objects.create(first_name="Emily", last_name="Li", email_address="emily@gmail.com", age=22)\
+<User: User object (3)>\
+>>> User.objects.all\
+<bound method BaseManager.all of <django.db.models.manager.Manager object at 0x104a0ff10>>\
+>>> User.objects.first()\
+<User: User object (1)>\
+>>> User.objects.last()\
+<User: User object (3)>\
+>>> User.objects.get(id=3)\
+<User: User object (3)>\
+>>> last_name = "Pancakes"\
+>>> save()\
+Traceback (most recent call last):\
+  File "<console>", line 1, in <module>\
+NameError: name 'save' is not defined\
+>>> save\
+Traceback (most recent call last):\
+  File "<console>", line 1, in <module>\
+NameError: name 'save' is not defined\
+>>> User.objects.get(id=3)\
+<User: User object (3)>\
+>>> last_name = "Pancakes"\
+>>> save\
+Traceback (most recent call last):\
+  File "<console>", line 1, in <module>\
+NameError: name 'save' is not defined\
+>>> User.objects.get(id=3)\
+<User: User object (3)>\
+>>> user3=User.objects.get(id=3)\
+>>> user2=User.objects.get(id=2)\
+>>> user3.last_name\
+'Li'\
+>>> user3\
+<User: User object (3)>\
+>>> user2.age\
+25\
+>>> user.3.get\
+  File "<console>", line 1\
+    user.3.get\
+        ^\
+SyntaxError: invalid syntax\
+>>> user.3\
+  File "<console>", line 1\
+    user.3\
+        ^\
+SyntaxError: invalid syntax\
+>>> user3.get\
+Traceback (most recent call last):\
+  File "<console>", line 1, in <module>\
+AttributeError: 'User' object has no attribute 'get'\
+>>> user3\
+<User: User object (3)>\
+>>> last_name = "Pancakes"\
+>>> save\
+Traceback (most recent call last):\
+  File "<console>", line 1, in <module>\
+NameError: name 'save' is not defined\
+>>> for user in all_users:\
+... \
+... \
+... ss\
+  File "<console>", line 4\
+    ss\
+    ^\
+IndentationError: expected an indented block\
+>>> user3\
+<User: User object (3)>\
+>>> user3.;ast_name="Pancakes"\
+  File "<console>", line 1\
+    user3.;ast_name="Pancakes"\
+          ^\
+SyntaxError: invalid syntax\
+>>> user3.last_name="Pancakes"\
+>>> user3.save()\
+>>> user.last_name\
+Traceback (most recent call last):\
+  File "<console>", line 1, in <module>\
+NameError: name 'user' is not defined\
+>>> user3.last_name\
+'Pancakes'\
+>>> User2\
+Traceback (most recent call last):\
+  File "<console>", line 1, in <module>\
+NameError: name 'User2' is not defined\
+>>> user2.delete()\
+(1, \{'app_one.User': 1\})\
+>>> User.objects.all().order_by("first_name")\
+<QuerySet [<User: User object (3)>, <User: User object (1)>]>\
+>>> }

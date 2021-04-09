@@ -1,0 +1,38 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+.container{
+    margin: 0 auto;
+    width: fit-content;
+}
+
+table, th, td{
+    border: solid 1px black;
+}
+
+.line{
+    border-bottom: 2px solid black;
+    display: block;
+    width: 250px;
+}
+
+
+.div1{
+    vertical-align: middle;
+    float: left;
+}
+
+.div2{
+    float: left;
+    vertical-align: middle;
+}
+
+.button{
+    margin-top: 20px;
+}
